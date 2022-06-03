@@ -14,7 +14,9 @@
     "fs-read": "node ./src/fs/read.js",
 
     "cli-env": "RSS_name1=value1 neRSS_name3=value3 RSS_name2=value2 RSS_KA=KARRS node ./src/cli/env.js",
-    "cli-args": "node ./src/cli/args.js --propName value --prop2Name value2 --neProp3Name neValue3"
+    "cli-args": "node ./src/cli/args.js --propName value --prop2Name value2 --neProp3Name neValue3",
+
+    "modules-cjsToEsm": "node src/modules/cjsToEsm.mjs"
   },
   "repository": {
     "type": "git",
